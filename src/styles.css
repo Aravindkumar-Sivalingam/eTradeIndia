@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+html, body{
+    margin: 0;
+}
+
+body, nav {
+    /* background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */
+    background-color: #f59b07;
+    background-image: linear-gradient(270deg, #f59b07 0%, #c52a2a 80%);
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.text-justify {
+    text-align: justify;
+}
+

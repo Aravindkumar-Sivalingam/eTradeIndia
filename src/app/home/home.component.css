@@ -1,0 +1,35 @@
+.backgrounds {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    z-index: -1; }
+    .backgrounds .background {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-attachment: fixed; }
+  
+  .overlay:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #3F51B5;
+    opacity: 0.8; }
+
+
+.banner-image {
+    background: linear-gradient(rgba(29, 38, 113, 0.8), #c52a2a), url(https://bootstraplily.com/demo/detto-ui-kit/img/banner-image-three.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 56px;
+}
